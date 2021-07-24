@@ -5,7 +5,7 @@
         "port": 5000
     },
     "database": false,
-    "views": 20,
+    "views": 50,
     "minimum": 85.0,
     "maximum": 95.0,
     "proxy": {
@@ -16,5 +16,5 @@
     },
     "background": true,
     "bandwidth": false,
-    "threads": 6
+    "threads": 20
 }
