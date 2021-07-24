@@ -1,0 +1,20 @@
+{
+    "http_api": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "database": true,
+    "views": 100,
+    "minimum": 85.0,
+    "maximum": 95.0,
+    "proxy": {
+        "category": "f",
+        "proxy_type": "all",
+        "filename": "",
+        "authentication": false
+    },
+    "background": false,
+    "bandwidth": false,
+    "threads": 6
+}
