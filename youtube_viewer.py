@@ -375,7 +375,8 @@ def get_driver(agent, proxy, proxy_type, pluginfile):
     options.add_argument('--disable-features=UserAgentClientHint')
     webdriver.DesiredCapabilities.CHROME['loggingPrefs'] = {
         'driver': 'OFF', 'server': 'OFF', 'browser': 'OFF'}
-
+    options.add_argument("--no-sandbox")
+ 
     if not background:
         options.add_extension(WEBRTC)
         options.add_extension(FINGERPRINT)
